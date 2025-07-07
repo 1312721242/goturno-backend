@@ -1,0 +1,78 @@
+# ========================
+# 📁 GENERAL
+# ========================
+.env
+.env.local
+.env.*.local
+*.env
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# 📁 NODE / BACKEND
+# ========================
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos de compilación
+dist/
+build/
+coverage/
+
+# ========================
+# 📁 REACT / REACT NATIVE
+# ========================
+# React
+/.cache/
+/public/static/
+/build/
+
+# React Native
+.expo/
+.expo-shared/
+android/app/build/
+ios/Pods/
+ios/Podfile.lock
+
+# ========================
+# ⚙ CONFIGURACIONES IDE
+# ========================
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# ⚙ SISTEMAS / CONTROL DE VERSIÓN
+# ========================
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Git archivos temporales
+*.orig
+
+# ========================
+# ⚠ BASES DE DATOS TEMPORALES
+# ========================
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# ========================
+# 🧪 TESTS / COBERTURA
+# ========================
+coverage/
+_tests_/
+jest.config.js
+jest.setup.js
